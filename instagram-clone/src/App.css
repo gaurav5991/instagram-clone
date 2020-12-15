@@ -1,0 +1,52 @@
+/* Page Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app_posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app_posts_right{
+  margin-left: 20px;
+}
+
+/* Header Style */
+.app_header{
+  background-color: white;
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app_headerImage{
+  object-fit: contain;
+}
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+}
+/* My Input : Done By Me */
+.sorrymessage{
+  display: flex;
+  justify-content: center;
+}
+
+.sorrymessage h3{
+  font-weight: normal;
+}
